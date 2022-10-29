@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ППР</title>
+	<meta property="og:title" content="ППР">
+	<meta property="og:description" content="Описание">
+	<meta property="og:url" content="/">
+	<meta property="og:site_name" content="ППР">
+	<!-- styles -->
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
+						<span class="hamburger__inner"></span>
+						<span class="hamburger__inner"></span>
+						<span class="hamburger__inner"></span>
+					</button>
+					<div class="header__block">
+						<a href="index.html" class="header__logotype">
+							<img src="img/logotype.svg" width="105px" height="38px" alt="ППР">
+						</a>
+						<a href="#" class="header__link">Каталог товаров</a>
+					</div>
+					<div class="header__block">
+						<div class="header__group">
+							<a href="tel:88005555200" class="header__link">8 (800) 5555-200</a>
+							<a href="mailto:sales@petrolplus.ru" class="header__link">sales@petrolplus.ru</a>
+						</div>
+						<a href="#" class="header__btn btn">Оставить заявку</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end of header -->
+		<!-- mobile menu -->
+		<div class="mobile-menu" id="mobile-menu">
+			<div class="mobile-menu__top">
+				<button class="mobile-menu__close" id="mobile-menu-close" aria-label="Закрыть">
+					<span class="mobile-menu__close-inner"></span>
+					<span class="mobile-menu__close-inner"></span>
+				</button>
+				<a href="index.html" class="mobile-menu__logotype">
+					<img src="img/logotype.svg" width="110.5px" height="40px" alt="ППР">
+				</a>
+			</div>
+			<div class="mobile-menu__main">
+				<a href="#" class="mobile-menu__link">Каталог товаров</a>
+				<a href="#" class="mobile-menu__btn btn">Оставить заявку</a>
+			</div>
+			<div class="mobile-menu__bottom">
+				<div class="mobile-menu__group">
+					<a href="tel:88005555200" class="mobile-menu__link">8 (800) 5555-200</a>
+					<a href="mailto:sales@petrolplus.ru" class="mobile-menu__link">sales@petrolplus.ru</a>
+				</div>
+			</div>
+		</div>
+		<div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+		<!-- end of mobile menu -->
+		<!-- content -->
+		<div class="wrapper__content">
+			<!-- promo -->
+			<section class="promo" id="promo">
+				<div class="container">
+					<div class="promo__wrapper">
+						<div class="promo__body">
+							<h3 class="promo__subtitle">Экономьте на топливе до 30% с картой</h3>
+							<h2 class="promo__title">Вездеход</h2>
+							<div class="promo__inner">
+								<p class="promo__description">Самая большая сеть АЗС в стране — более 16 000 заправок</p>
+								<a href="#" class="promo__btn btn">Узнать подробнее</a>
+							</div>
+						</div>
+						<picture class="promo__img">
+							<source srcset="img/promo.png" media="(min-width: 1200px)">
+							<img src="img/promo-mobile.png" alt="Image">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<!-- end of promo -->
+			<!-- services -->
+			<section class="services" id="services">
+				<div class="container"></div>
+			</section>
+			<!-- end of services -->
+			<!-- advantages -->
+			<section class="advantages" id="advantages">
+				<div class="container"></div>
+			</section>
+			<!-- end of advantages -->
+			<!-- connection request -->
+			<section class="connection-request" id="connection-request">
+				<div class="container">
+					<div class="connection-request__wrapper">
+						<div class="connection-request__left">
+							<h2 class="connection-request__title">Оставьте заявку на подключение</h2>
+						</div>
+						<div class="connection-request__right">
+							<form action="" class="connection-request-form connection-request__form">
+								<div class="connection-request-form__wrapper">
+									<input type="text" class="connection-request-form__input input" placeholder="Ваше имя*" required>
+									<input type="text" class="connection-request-form__input input" placeholder="+7 ___ ___-__-__ *" data-inputmask="'mask': '+7 999 999-99-99'" required>
+									<input type="text" class="connection-request-form__input input" placeholder="Электронная почта *" required>
+									<input type="text" class="connection-request-form__input input" placeholder="ИНН">
+								</div>
+								<div class="connection-request-form__inner">
+									<button class="connection-request-form__btn btn">Оставить заявку</button>
+									<span class="connection-request-form__help">Нажимая на кнопку, я даю <a href="#" target="_blank">согласие на обработку персональных данных</a></span>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end of connection request -->
+		</div>
+		<!-- end of content -->
+		<!-- footer -->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<a href="index.html" class="footer__logotype">
+						<img src="img/logotype.svg" width="163px" height="59px" alt="ППР">
+					</a>
+					<p class="footer__copyright">
+						© 2022, «Передовые Платежные Решения»<br>
+						Вся представленная информация на данном сайте носит информационный характер, <br>и ни при каких условиях не является публичной или иной офертой, определяемой <br>положениями Гражданского кодекса РФ.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- end of footer -->
+	</div>
+	<!-- end of wrapper -->
+	<!-- scripts -->
+	<script src="js/vendor.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
